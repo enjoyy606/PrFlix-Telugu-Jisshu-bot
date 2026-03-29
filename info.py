@@ -49,8 +49,8 @@ DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://premashilarana681_db_u
 DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "https://t.me/+iYvSF6pbLPA2NTc9")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "Telugu Movie Database")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://premashilarana681_db_user:GMucI9xhkmvNUOX2@cluster0.8mlerkv.mongodb.net/?appName=Cluster0")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "Cluster0")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002741875760"))
